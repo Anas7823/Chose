@@ -12,12 +12,25 @@
 
     <!-- Feuille de style-->
     <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
     <title>ThyDev ● Contact</title>
  </head>
  <body>
+  <div class="nav d-flex flex-row justify-content-between">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+      <div class="nav-title">
+        ThyDev
+      </div>
+    </div>
     
+    <div class="nav-links">
+      <a class="contact" href="contact.html">Contact</a>
+    </div>
+  </div>
 
-    <div class="container">
+    <div class="container" id="formulaire">
         <div class="row header">
           <h1>Contactez nous!</h1>
           <h3>Remplissez le formulaire ci-dessous pour tous projets de sites web.</h3>
@@ -76,5 +89,50 @@
         </div>
       </div>
 
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>A propos</h6>
+              <p class="text-justify">ThyDev est une Start-Up collaborative visant à proposer un étalage varié de site afin fournir une alternative abordable aux autres Start-Up ou particuliers. 
+                Nous offrons la possibilité a nos clients de suivre la progression de leur projet a travers une roadmap évolutive, changeant a chaque étape importante complété.
+              </p>
+            </div>
+    
+            <div class="col-xs-6 col-md-3">
+              <h6>Categories</h6>
+              <ul class="footer-links">
+                <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+                <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+                <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+                <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+                <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+                <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+              </ul>
+            </div>
+    
+            <div class="col-xs-6 col-md-3">
+              <h6>ThyDev</h6>
+              <ul class="footer-links">
+                <li><a href="https://www.linkedin.com/">A Propos de la société</a></li>
+                <li><a href="contact.html">Contactez Nous</a></li>
+                <li><a href="mentions.html">Mentions Légales</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+           <a href="#">ThyDev</a>.
+              </p>
+            </div>
+    
+    
+          </div>
+        </div>
+    </footer>
  </body>
  </html>
