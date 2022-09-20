@@ -1,0 +1,49 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #434343;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+.box1{
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    width: 80%;
+    border : 1px transparent solid;
+    border-radius: 1rem;
+    display: block;
+    color: aliceblue;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    /* box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.514)  ; */
+    animation: mymove 3s infinite;
+}
+@keyframes mymove {
+    50% {box-shadow: 10px 15px 15px #58111A;}
+}
+
+.contenue{
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 80%;
+    border : 1px transparent solid;
+    border-radius: 1rem;
+    display: block;
+    color: aliceblue;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 5px 5px 5px #58111A;
+}
